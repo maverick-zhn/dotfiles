@@ -54,3 +54,17 @@ Shell successfully changed to '/usr/bin/zsh'.
 / /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / /
 \____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/
 ```
+
+## Installing vim config
+Copy vim directory content to ~/
+
+```
+spalacio@maverickzhn01:~$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+Cloning into '/home/spalacio/.vim/bundle/Vundle.vim'...
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 3140 (delta 0), reused 0 (delta 0), pack-reused 3139
+Receiving objects: 100% (3140/3140), 935.39 KiB | 1.09 MiB/s, done.
+Resolving deltas: 100% (1106/1106), done.
+spalacio@maverickzhn01:~$ vim .vim
+```
